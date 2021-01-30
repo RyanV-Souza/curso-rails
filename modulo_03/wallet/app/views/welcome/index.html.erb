@@ -1,2 +1,9 @@
 <h1>Boas vindas</h1>
-<%= link_to "Cadastro de Moedas", '/coins' %>
+<p> 
+    <%= date_br(Date.today)%>
+</p>
+
+<%= render "menu" %>
+
+<p> Você está em ambiente de <strong> <%= ambiente_rails %></strong></p>
+<p> Meu nome é <%= @nome %></p>
