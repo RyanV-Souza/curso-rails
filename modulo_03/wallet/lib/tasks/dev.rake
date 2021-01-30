@@ -5,9 +5,8 @@ namespace :dev do
       show_spinner('Apagando Database') { %x(rails db:drop) }  
       show_spinner('Criando Database'){ %x(rails db:create) }  
       show_spinner('Migrando Database') { %x(rails db:migrate) }
-        
-      %x(rails dev:add_coins)
       %x(rails dev:add_mining_types)
+      %x(rails dev:add_coins)
         
     else
       puts 'Você não está em ambiente de desenvolvimento'
@@ -21,31 +20,36 @@ namespace :dev do
         {
           description: 'Bitcoin',
           acronym: 'BTC',
-          url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1.png'
+          url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1.png',
+          mining_type: MiningType.find_by(acronym: 'PoW')
         },
   
         {
           description: 'Ethereum',
           acronym: 'ETH',
-          url_image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/1200px-Ethereum-icon-purple.svg.png'
+          url_image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Ethereum-icon-purple.svg/1200px-Ethereum-icon-purple.svg.png',
+          mining_type: MiningType.all.sample
         },
   
         {
           description: 'Dash',
           acronym: 'DASH',
-          url_image: 'https://media.dash.org/wp-content/uploads/dash-d.png'
+          url_image: 'https://media.dash.org/wp-content/uploads/dash-d.png',
+          mining_type: MiningType.all.sample
         },
   
         {
           description: 'ZCash',
           acronym: 'ZEC',
-          url_image: 'https://z.cash/wp-content/uploads/2018/10/zcash-logo-fullcolor-512sq.png'
+          url_image: 'https://z.cash/wp-content/uploads/2018/10/zcash-logo-fullcolor-512sq.png',
+          mining_type: MiningType.all.sample
         },
   
         {
           description: 'IOTA',
           acronym: 'MIOTA',
-          url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1720.png'
+          url_image: 'https://s2.coinmarketcap.com/static/img/coins/200x200/1720.png',
+          mining_type: MiningType.all.sample
         }
       ]
   
