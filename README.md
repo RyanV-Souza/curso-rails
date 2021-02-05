@@ -1,3 +1,2 @@
 # curso-rails
 
-# Comandos
