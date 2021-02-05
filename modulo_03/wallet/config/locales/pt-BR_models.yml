@@ -1,12 +1,12 @@
 'pt-BR':
   activerecord:
     models:
-      coin: 
-        one: Moeda
-        other: Moedas
-      miningType: 
+      mining_type: 
         one: Tipo de Mineração
         other: Tipos de Mineração
+      coin: 
+        one: Criptomoeda
+        other: Criptomoeda
     attributes:
       coin:
         id: Código
