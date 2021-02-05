@@ -6,7 +6,7 @@
         other: Tipos de Mineração
       coin: 
         one: Criptomoeda
-        other: Criptomoeda
+        other: Criptomoedas
     attributes:
       coin:
         id: Código
