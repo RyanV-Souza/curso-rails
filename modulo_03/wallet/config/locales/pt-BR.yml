@@ -13,12 +13,12 @@ pt-BR:
     new: "Novo"
     back: "Voltar"
   new:
-    coin: "Nova Moeda"
+    coin: "Nova Criptomoeda"
     mining_type: "Novo Tipo de Mineração"
   editing:
-    coin: "Editando Moeda"
+    coin: "Editando Criptomoeda"
     mining_type: "Editando Tipo de Mineração"
   showing:
-    coin: "Mostrando Moeda"
+    coin: "Mostrando Criptomoeda"
     mining_type: "Mostrando Tipo de Mineração"
   

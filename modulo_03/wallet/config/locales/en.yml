@@ -44,11 +44,11 @@ en:
     new: "New"
     back: "Back"
   new:
-    coin: "New Coin"
+    coin: "New Cryptocoin"
     mining_type: "New Mining Type"
   editing:
-    coin: "Editing Coin"
+    coin: "Editing Cryptocoin"
     mining_type: "Editing Mining Type"
   showing:
-    coin: "Showing Coin"
+    coin: "Showing Cryptocoin"
     mining_type: "Showing Mining Type"
