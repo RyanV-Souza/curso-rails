@@ -1,0 +1,7 @@
+Started GET "/" for ::1 at 2021-02-05 21:05:33 -0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 1337ms (Views: 1333.4ms | ActiveRecord: 0.0ms)
+
+
