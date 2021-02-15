@@ -172,3 +172,107 @@ Processing by Devise::SessionsController#new as HTML
 Completed 200 OK in 37ms (Views: 30.5ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/admins/sign_in" for ::1 at 2021-02-15 12:15:45 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by Devise::SessionsController#new as HTML
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (0.8ms)
+  Rendered admins/sessions/new.html.erb within layouts/application (46.5ms)
+Completed 200 OK in 296ms (Views: 282.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admins/sign_in" for ::1 at 2021-02-15 12:15:45 -0300
+Processing by Devise::SessionsController#new as HTML
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (0.9ms)
+  Rendered admins/sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admins/sign_in" for ::1 at 2021-02-15 12:15:53 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MA6TzTEWg2hdvtg8eT60BxsbL3Jg7JJfhOdf/wH9sFvbje5v5VenjLIC27/jFhDzXc+/xNG9NufuaO53O3WWA==", "admin"=>{"email"=>"qwe@qwe", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MA6TzTEWg2hdvtg8eT60BxsbL3Jg7JJfhOdf/wH9sFvbje5v5VenjLIC27/jFhDzXc+/xNG9NufuaO53O3WWA==", "admin"=>{"email"=>"qwe@qwe", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (0.9ms)
+  Rendered admins/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admins/sign_in" for ::1 at 2021-02-15 12:16:19 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by Devise::SessionsController#new as HTML
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (1.2ms)
+  Rendered admins/sessions/new.html.erb within layouts/application (46.6ms)
+Completed 200 OK in 291ms (Views: 281.2ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/admins/sign_in" for ::1 at 2021-02-15 12:16:32 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"duVwOu0LhKm3FL8R7Sv7O+X8zc6h+v6unv48pqtlyhjFS33MZlqAOiSqTx/jQ1moNOefjHs/uDx/VAJgi4/qgQ==", "admin"=>{"email"=>"qwe@qwe", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"duVwOu0LhKm3FL8R7Sv7O+X8zc6h+v6unv48pqtlyhjFS33MZlqAOiSqTx/jQ1moNOefjHs/uDx/VAJgi4/qgQ==", "admin"=>{"email"=>"qwe@qwe", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (0.7ms)
+  Rendered admins/sessions/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 21ms (Views: 20.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admins/sign_in" for ::1 at 2021-02-15 12:21:22 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by Devise::SessionsController#new as HTML
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (0.9ms)
+  Rendered admins/sessions/new.html.erb within layouts/application (51.8ms)
+Completed 200 OK in 276ms (Views: 263.0ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/admins/sign_in" for ::1 at 2021-02-15 12:21:25 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nVq5bZMwtS5BlxLYA3GJHIpkUEot9GDzG8KAknYl5TMu9LSbGGGxvdIp4tYNGSuPW38CCPcxJmH6aL5UVs/Fqg==", "admin"=>{"email"=>"qwe@qwe", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nVq5bZMwtS5BlxLYA3GJHIpkUEot9GDzG8KAknYl5TMu9LSbGGGxvdIp4tYNGSuPW38CCPcxJmH6aL5UVs/Fqg==", "admin"=>{"email"=>"qwe@qwe", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (0.9ms)
+  Rendered admins/sessions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 55ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admins/sign_in" for ::1 at 2021-02-15 12:21:45 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by Devise::SessionsController#new as HTML
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (0.9ms)
+  Rendered admins/sessions/new.html.erb within layouts/application (47.6ms)
+Completed 200 OK in 287ms (Views: 269.0ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/admins/sign_in" for ::1 at 2021-02-15 12:21:47 -0300
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IdBNKJbBIWSHs4HGx8gqfL5H/2PAZSsZnSXH/IN26gKSfkDeHZAl9xQNccjJoIjvb1ytIRqgbYt8j/k6o5zKmw==", "admin"=>{"email"=>"qwe@qwe", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Processing by Devise::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IdBNKJbBIWSHs4HGx8gqfL5H/2PAZSsZnSXH/IN26gKSfkDeHZAl9xQNccjJoIjvb1ytIRqgbYt8j/k6o5zKmw==", "admin"=>{"email"=>"qwe@qwe", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering admins/sessions/new.html.erb within layouts/application
+  Rendered admins/shared/_links.html.erb (0.8ms)
+  Rendered admins/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 46ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
