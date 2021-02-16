@@ -4826,3 +4826,161 @@ Processing by AdminsBackoffice::WelcomeController#index as HTML
 Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.1ms)
 
 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (8.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (8.0ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to DeviseCreateAdmins (20210215144151)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "admins" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20210215144151_devise_create_admins.rb:5
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admins_on_email" ON "admins" ("email")[0m
+  ↳ db/migrate/20210215144151_devise_create_admins.rb:39
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_admins_on_reset_password_token" ON "admins" ("reset_password_token")[0m
+  ↳ db/migrate/20210215144151_devise_create_admins.rb:40
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210215144151"]]
+  ↳ bin/rails:9
+  [1m[35m (8.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+Migrating to DeviseCreateUsers (20210215232601)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "users" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "email" varchar DEFAULT '' NOT NULL, "encrypted_password" varchar DEFAULT '' NOT NULL, "reset_password_token" varchar, "reset_password_sent_at" datetime, "remember_created_at" datetime, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20210215232601_devise_create_users.rb:5
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  ↳ db/migrate/20210215232601_devise_create_users.rb:39
+  [1m[35m (0.1ms)[0m  [1m[35mCREATE UNIQUE INDEX "index_users_on_reset_password_token" ON "users" ("reset_password_token")[0m
+  ↳ db/migrate/20210215232601_devise_create_users.rb:40
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20210215232601"]]
+  ↳ bin/rails:9
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (0.4ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-02-16 19:05:16.604843"], ["updated_at", "2021-02-16 19:05:16.604843"]]
+  ↳ bin/rails:9
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:34
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "admin@admin.com"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:34
+  [1m[36mAdmin Create (0.4ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "admin@admin.com"], ["encrypted_password", "$2a$12$a/jHO6TWAzJuNzZhcQsdH.BMj/cPCS6ogWKCDA2UHIenA5x5wOvyi"], ["created_at", "2021-02-16 19:05:18.209145"], ["updated_at", "2021-02-16 19:05:18.209145"]]
+  ↳ lib/tasks/dev.rake:34
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:34
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "lowell@dicki.net"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Create (0.4ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "lowell@dicki.net"], ["encrypted_password", "$2a$12$DGYERYhhOX7s13Ln1.WQeeyFPooj8e/jfkpmEbKIzxi28hZqxoPEW"], ["created_at", "2021-02-16 19:05:20.015507"], ["updated_at", "2021-02-16 19:05:20.015507"]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (8.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "elvis@cole-emard.name"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Create (0.4ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "elvis@cole-emard.name"], ["encrypted_password", "$2a$12$cFghPz.8iPXe7TyymQ0D/OJrBPsh8/r9EldVD1kg3EvCbAmTKBf4e"], ["created_at", "2021-02-16 19:05:20.260861"], ["updated_at", "2021-02-16 19:05:20.260861"]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "berry@simonis.io"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Create (0.4ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "berry@simonis.io"], ["encrypted_password", "$2a$12$s8tQnGhEeYXkY2MSUwlgZ.SekjJYgMj5n6EWl1cFSjnzMMg.dtp5q"], ["created_at", "2021-02-16 19:05:20.510157"], ["updated_at", "2021-02-16 19:05:20.510157"]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "sheba.keebler@hilll.org"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Create (0.8ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "sheba.keebler@hilll.org"], ["encrypted_password", "$2a$12$NvBb6RQntf5fCo5yNdH3PePSPntQmrWM0mGEg5pl7hz6cGAOXOEMy"], ["created_at", "2021-02-16 19:05:20.758897"], ["updated_at", "2021-02-16 19:05:20.758897"]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "sadie@oberbrunner.net"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Create (0.4ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "sadie@oberbrunner.net"], ["encrypted_password", "$2a$12$6Tm1RJch3p.61kmZwBD1beDkbS5Sa01K.EU.JmnfAAz1/WwB.wg76"], ["created_at", "2021-02-16 19:05:21.003864"], ["updated_at", "2021-02-16 19:05:21.003864"]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "sharell@daugherty-powlowski.info"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Create (0.3ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "sharell@daugherty-powlowski.info"], ["encrypted_password", "$2a$12$b7o98PHYGXjJ6EBTGkqStOYKVUYdSkxCeva72rV1ZU2.xE7sRnPDW"], ["created_at", "2021-02-16 19:05:21.260711"], ["updated_at", "2021-02-16 19:05:21.260711"]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "melodi@satterfield.com"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Create (0.3ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "melodi@satterfield.com"], ["encrypted_password", "$2a$12$SaORhKb0RjO0vipZj3S2a.QyrwFZpzGxoP14G9HtcljN1zvGG3iXq"], ["created_at", "2021-02-16 19:05:21.505777"], ["updated_at", "2021-02-16 19:05:21.505777"]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (8.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "jonnie.howe@ritchie-oconnell.io"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Create (0.4ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "jonnie.howe@ritchie-oconnell.io"], ["encrypted_password", "$2a$12$NTPsutTL6g28BBMhgWnvg.jVJUUNvPS40ruSUb.sPXKvn55rDBsbK"], ["created_at", "2021-02-16 19:05:21.756618"], ["updated_at", "2021-02-16 19:05:21.756618"]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (8.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "kristy@erdman-veum.net"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Create (0.4ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "kristy@erdman-veum.net"], ["encrypted_password", "$2a$12$crNDRFidQPlpB3cefUB20Oc820dbgC9CX2ygfNSNT.Ymyc92wZGl6"], ["created_at", "2021-02-16 19:05:22.002846"], ["updated_at", "2021-02-16 19:05:22.002846"]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (9.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "jonah_smitham@weissnat.net"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[36mAdmin Create (0.4ms)[0m  [1m[32mINSERT INTO "admins" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "jonah_smitham@weissnat.net"], ["encrypted_password", "$2a$12$QNfgUKL19MXNoB2RFx0RAeW6bk8Hx5cHIhtcvCt/VydjsYO.c2FNa"], ["created_at", "2021-02-16 19:05:22.258835"], ["updated_at", "2021-02-16 19:05:22.258835"]]
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:44
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:25
+  [1m[36mUser Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "users" WHERE "users"."email" = ? LIMIT ?[0m  [["email", "user@user.com"], ["LIMIT", 1]]
+  ↳ lib/tasks/dev.rake:25
+  [1m[36mUser Create (0.5ms)[0m  [1m[32mINSERT INTO "users" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "user@user.com"], ["encrypted_password", "$2a$12$vPSAkEV6DHQPP7FI8fHKE.0obFFcnUi36lRBJJhP/ph7KBUvgw.U."], ["created_at", "2021-02-16 19:05:23.825199"], ["updated_at", "2021-02-16 19:05:23.825199"]]
+  ↳ lib/tasks/dev.rake:25
+  [1m[35m (8.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:25
+  [1m[36mAdmin Load (0.7ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "admins"[0m
+  [1m[36mAdmin Load (0.8ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  [1m[36mAdmin Load (0.5ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m

@@ -9,6 +9,7 @@ namespace :dev do
       show_spinner('Criando Database'){ %x(rails db:create) }  
       show_spinner('Migrando Database') { %x(rails db:migrate) }
       show_spinner('Adicionando administrador padrão') { %x(rails dev:add_default_admin) }
+      show_spinner('Adicionando administrador extras') { %x(rails dev:add_extra_admins) }
       show_spinner('Adicionando usuário padrão') { %x(rails dev:add_default_user) }
 
       #%x(rails dev:add_mining_types)
@@ -35,6 +36,17 @@ namespace :dev do
       password: DEFAULT_PASSWORD,
       password_confirmation: DEFAULT_PASSWORD
     )
+  end
+
+  desc "Adiciona o administradores extras"
+  task add_extra_admins: :environment do
+    10.times do |i|
+      Admin.create!(
+        email: Faker::Internet.email,
+        password: DEFAULT_PASSWORD,
+        password_confirmation: DEFAULT_PASSWORD
+      )
+    end
   end
 
   private
