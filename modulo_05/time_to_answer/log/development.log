@@ -5477,3 +5477,1265 @@ Processing by AdminsBackoffice::AdminsController#index as HTML
 Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 15:42:01 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:16
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (2.3ms)
+Completed 200 OK in 44ms (Views: 41.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 15:42:15 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:16
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (2.3ms)
+Completed 200 OK in 432ms (Views: 419.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for ::1 at 2021-02-17 15:43:05 -0300
+Processing by Site::WelcomeController#index as HTML
+  Rendering site/welcome/index.html.erb within layouts/site
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/site/welcome/index.html.erb:10
+  Rendered site/welcome/index.html.erb within layouts/site (4.2ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 15:43:52 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (2.4ms)
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 15:43:53 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:12
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (2.4ms)
+Completed 200 OK in 52ms (Views: 47.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 15:43:57 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:13
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (2.2ms)
+Completed 200 OK in 34ms (Views: 31.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 15:44:16 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:13
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (2.5ms)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 15:44:28 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:13
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (2.5ms)
+Completed 200 OK in 38ms (Views: 35.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:44:30 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.7ms)
+Completed 200 OK in 36ms (Views: 33.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:49:08 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.8ms)
+Completed 200 OK in 52ms (Views: 48.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:49:22 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.7ms)
+Completed 200 OK in 36ms (Views: 32.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:49:26 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.7ms)
+Completed 200 OK in 32ms (Views: 29.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:49:37 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.8ms)
+Completed 200 OK in 31ms (Views: 27.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:50:34 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.6ms)
+Completed 200 OK in 33ms (Views: 30.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:51:11 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.6ms)
+Completed 200 OK in 49ms (Views: 46.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:51:44 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.7ms)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:52:00 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.6ms)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:52:09 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.7ms)
+Completed 200 OK in 33ms (Views: 30.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:52:16 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.7ms)
+Completed 200 OK in 44ms (Views: 41.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:52:41 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.6ms)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 15:53:07 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.6ms)
+Completed 200 OK in 34ms (Views: 31.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:20:24 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.8ms)
+Completed 200 OK in 39ms (Views: 36.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:20:26 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (1.9ms)
+Completed 200 OK in 37ms (Views: 32.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:21:02 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.8ms)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:21:04 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (0.9ms)
+Completed 200 OK in 37ms (Views: 33.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:24:49 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (153.6ms)
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `admins_backoffice_admin_path' for #<#<Class:0x00007f76307d4f80>:0x00007f76219fc2b8>
+Did you mean?  admins_backoffice_admins_path
+               admins_backoffice_admins_url):
+     5:         <h6 class="m-0 font-weight-bold text-primary">Formulário para Edição</h6>
+     6:     </div>
+     7:     <div class="card-body">
+     8:         <%= form_with(model: [ :admins_backoffice, @admin ]) do |admin|%>
+     9:             <div class='form-group'>
+    10:                 <label for="">E-Mail</label>
+    11:                 <input type="" class="form-control">
+  
+app/views/admins_backoffice/admins/edit.html.erb:8:in `_app_views_admins_backoffice_admins_edit_html_erb___258273874936795547_70072673494440'
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:25:33 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.1ms)
+Completed 200 OK in 106ms (Views: 89.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:32:37 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (1.3ms)
+Completed 200 OK in 33ms (Views: 29.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:33:22 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (332.6ms)
+Completed 500 Internal Server Error in 337ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x00007f7621edcc38>:0x00007f7621e11830>
+Did you mean?  for
+               fork):
+     8: 
+     9:         <%= form_with(model: [ :admins_backoffice, @admin ], local: true) do |admin|%>
+    10:             <div class='form-group'>
+    11:                 <%= form.label :email%>
+    12:                 <input type="" class="form-control">
+    13:             </div>
+    14: 
+  
+app/views/admins_backoffice/admins/edit.html.erb:11:in `block in _app_views_admins_backoffice_admins_edit_html_erb___258273874936795547_70072675635300'
+app/views/admins_backoffice/admins/edit.html.erb:9:in `_app_views_admins_backoffice_admins_edit_html_erb___258273874936795547_70072675635300'
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:34:40 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (1.0ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+
+  
+SyntaxError (/home/ryanonrails/curso-rails/modulo_05/time_to_answer/app/views/admins_backoffice/admins/edit.html.erb:12: syntax error, unexpected ')'
+...s:'form-control', placeholder:);@output_buffer.safe_append='
+...                              ^
+/home/ryanonrails/curso-rails/modulo_05/time_to_answer/app/views/admins_backoffice/admins/edit.html.erb:27: syntax error, unexpected end, expecting ')'
+'.freeze;         end 
+                  ^~~
+/home/ryanonrails/curso-rails/modulo_05/time_to_answer/app/views/admins_backoffice/admins/edit.html.erb:33: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ryanonrails/curso-rails/modulo_05/time_to_answer/app/views/admins_backoffice/admins/edit.html.erb:35: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/admins_backoffice/admins/edit.html.erb:12: syntax error, unexpected ')'
+app/views/admins_backoffice/admins/edit.html.erb:27: syntax error, unexpected end, expecting ')'
+app/views/admins_backoffice/admins/edit.html.erb:33: syntax error, unexpected ensure, expecting ')'
+app/views/admins_backoffice/admins/edit.html.erb:35: syntax error, unexpected end, expecting ')'
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:34:57 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (322.9ms)
+Completed 500 Internal Server Error in 327ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x00007f7621edcc38>:0x00007f762157fc30>
+Did you mean?  for
+               fork):
+     8: 
+     9:         <%= form_with(model: [ :admins_backoffice, @admin ], local: true) do |admin|%>
+    10:             <div class='form-group'>
+    11:                 <%= form.label :email %>
+    12:                 <%= form.text_field :email, class:'form-control', placeholder:'Digite o E-Mail'%>
+    13:                 <input type="" class="form-control">
+    14:             </div>
+  
+app/views/admins_backoffice/admins/edit.html.erb:11:in `block in _app_views_admins_backoffice_admins_edit_html_erb___258273874936795547_70072801616580'
+app/views/admins_backoffice/admins/edit.html.erb:9:in `_app_views_admins_backoffice_admins_edit_html_erb___258273874936795547_70072801616580'
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:35:07 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (1.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.3ms)
+
+
+  
+SyntaxError (/home/ryanonrails/curso-rails/modulo_05/time_to_answer/app/views/admins_backoffice/admins/edit.html.erb:33: syntax error, unexpected ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/admins_backoffice/admins/edit.html.erb:33: syntax error, unexpected ensure, expecting end-of-input
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:35:11 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (263.0ms)
+Completed 500 Internal Server Error in 267ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `form' for #<#<Class:0x00007f7621edcc38>:0x00007f7630e46d78>
+Did you mean?  for
+               fork):
+     8: 
+     9:         <%= form_with(model: [ :admins_backoffice, @admin ], local: true) do |admin|%>
+    10:             <div class='form-group'>
+    11:                 <%= form.label :email %>
+    12:                 <%= form.text_field :email, class:'form-control', placeholder:'Digite o E-Mail'%>
+    13:                 <input type="" class="form-control">
+    14:             </div>
+  
+app/views/admins_backoffice/admins/edit.html.erb:11:in `block in _app_views_admins_backoffice_admins_edit_html_erb___258273874936795547_70072801559620'
+app/views/admins_backoffice/admins/edit.html.erb:9:in `_app_views_admins_backoffice_admins_edit_html_erb___258273874936795547_70072801559620'
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:35:37 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (107.5ms)
+Completed 200 OK in 152ms (Views: 149.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:35:45 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (3.1ms)
+Completed 200 OK in 80ms (Views: 74.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:40:51 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.7ms)
+Completed 200 OK in 38ms (Views: 35.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:41:42 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (116.5ms)
+Completed 200 OK in 164ms (Views: 150.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 16:45:17 -0300
+  
+SyntaxError (/home/ryanonrails/curso-rails/modulo_05/time_to_answer/app/controllers/admins_backoffice/admins_controller.rb:17: syntax error, unexpected ':', expecting end
+      render: edit
+            ^):
+  
+app/controllers/admins_backoffice/admins_controller.rb:17: syntax error, unexpected ':', expecting end
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 16:45:30 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:13
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (2.3ms)
+Completed 200 OK in 42ms (Views: 31.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admins_backoffice/admins/2/edit" for ::1 at 2021-02-17 16:45:41 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (4.4ms)
+Completed 200 OK in 66ms (Views: 62.4ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/admins_backoffice/admins/2" for ::1 at 2021-02-17 16:45:55 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Pny0SiJZV+Nga39PET/Vd2WyLDtUR7IFbN14hd94ZbL8hHIjl/67Xe4ljHJq7u8FmaObMTjpIlSvljIz0qth8Q==", "admin"=>{"email"=>"lowell@dicki.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"2"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? AND "admins"."id" != ? LIMIT ?[0m  [["email", "lowell@dicki.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (141.8ms)
+Completed 500 Internal Server Error in 155ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `admins_backoffice_path' for #<#<Class:0x00007f7614ee2668>:0x00007f7621c30200>
+Did you mean?  admins_backoffice_admin_path):
+     6:     </div>
+     7:     <div class="card-body">
+     8: 
+     9:         <%= form_with(model: [ :admins_backoffice, @admin ], local: true) do |form|%>
+    10:             <div class='form-group'>
+    11:                 <%= form.label :email %>
+    12:                 <%= form.text_field :email, class:'form-control', placeholder:'Digite o e-mail'%>
+  
+app/views/admins_backoffice/admins/edit.html.erb:9:in `_app_views_admins_backoffice_admins_edit_html_erb___258273874936795547_70072674670140'
+app/controllers/admins_backoffice/admins_controller.rb:17:in `update'
+Started GET "/admins_backoffice/admins/2/edit" for ::1 at 2021-02-17 16:54:53 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.6ms)
+Completed 200 OK in 50ms (Views: 34.2ms | ActiveRecord: 0.8ms)
+
+
+Started PATCH "/admins_backoffice/admins/2" for ::1 at 2021-02-17 16:54:58 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BKC0DXINioFDMAD4CdRYCRqIIbULIMUZR3fMqv+3zMvGWHJkx6pmP81+88VyBWJ75pmWv2eOVUiEPIYc8mTIiA==", "admin"=>{"email"=>"lowell@dicki.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"2"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? AND "admins"."id" != ? LIMIT ?[0m  [["email", "lowell@dicki.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (148.1ms)
+Completed 500 Internal Server Error in 157ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `admins_backoffice_path' for #<#<Class:0x00007f7614a96c80>:0x00007f7614f01630>
+Did you mean?  admins_backoffice_admin_path):
+     6:     </div>
+     7:     <div class="card-body">
+     8: 
+     9:         <%= form_with(model: [ :admins_backoffice, @admin ], local: true) do |form|%>
+    10:             <div class='form-group'>
+    11:                 <%= form.label :email %>
+    12:                 <%= form.text_field :email, class:'form-control', placeholder:'Digite o e-mail'%>
+  
+app/views/admins_backoffice/admins/edit.html.erb:9:in `_app_views_admins_backoffice_admins_edit_html_erb___258273874936795547_70072567071280'
+app/controllers/admins_backoffice/admins_controller.rb:17:in `update'
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 16:55:38 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.4ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:13
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (3.4ms)
+Completed 200 OK in 58ms (Views: 54.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 16:55:39 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (4.4ms)
+Completed 200 OK in 68ms (Views: 63.8ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 16:55:48 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"6y3KOIBtk7N4FLstDVjHPba/wL2a+MgRd4WsAQtuJdgp1QxRNcp/DfZaSBB2if1PSq53t/ZWWEC0zua3Br0hmw==", "admin"=>{"email"=>"admin@admin.co", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? AND "admins"."id" != ? LIMIT ?[0m  [["email", "admin@admin.co"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (190.1ms)
+Completed 500 Internal Server Error in 200ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `admins_backoffice_path' for #<#<Class:0x00007f7614a96c80>:0x00007f7614e97a50>
+Did you mean?  admins_backoffice_admin_path):
+     6:     </div>
+     7:     <div class="card-body">
+     8: 
+     9:         <%= form_with(model: [ :admins_backoffice, @admin ], local: true) do |form|%>
+    10:             <div class='form-group'>
+    11:                 <%= form.label :email %>
+    12:                 <%= form.text_field :email, class:'form-control', placeholder:'Digite o e-mail'%>
+  
+app/views/admins_backoffice/admins/edit.html.erb:9:in `_app_views_admins_backoffice_admins_edit_html_erb___258273874936795547_70072566854300'
+app/controllers/admins_backoffice/admins_controller.rb:17:in `update'
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 16:56:39 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:13
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (2.8ms)
+Completed 200 OK in 483ms (Views: 469.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admins_backoffice/admins/2/edit" for ::1 at 2021-02-17 16:56:42 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (107.6ms)
+Completed 200 OK in 148ms (Views: 142.7ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/admins_backoffice/admins/2" for ::1 at 2021-02-17 16:56:46 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DBvXXIC+QN/N7fnc85B5Vze6Pdg3DEyfGD1pknpdptDO4xE1NRmsYUOjCuGIQUMly6uK0lui3M7bdiMkd46ikw==", "admin"=>{"email"=>"lowell@dicki.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"2"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? AND "admins"."id" != ? LIMIT ?[0m  [["email", "lowell@dicki.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (215.5ms)
+Completed 500 Internal Server Error in 224ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `admins_backoffice_path' for #<#<Class:0x00007f1fc07f6a20>:0x00007f1fb1e6d278>
+Did you mean?  admins_backoffice_admin_path):
+     6:     </div>
+     7:     <div class="card-body">
+     8: 
+     9:         <%= form_with(model: [ :admins_backoffice, @admin ], local: true) do |form|%>
+    10:             <div class='form-group'>
+    11:                 <%= form.label :email %>
+    12:                 <%= form.text_field :email, class:'form-control', placeholder:'Digite o e-mail'%>
+  
+app/views/admins_backoffice/admins/edit.html.erb:9:in `_app_views_admins_backoffice_admins_edit_html_erb___3029181888902926490_69887052701800'
+app/controllers/admins_backoffice/admins_controller.rb:17:in `update'
+Started GET "/rails/info/routes" for ::1 at 2021-02-17 16:58:54 -0300
+Processing by Rails::InfoController#routes as HTML
+  Rendering /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/railties-5.2.4.5/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/actionpack-5.2.4.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb [44 times] (15.6ms)
+  Rendered /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/actionpack-5.2.4.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/railties-5.2.4.5/lib/rails/templates/rails/info/routes.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started PATCH "/admins_backoffice/admins/2" for ::1 at 2021-02-17 16:59:15 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DBvXXIC+QN/N7fnc85B5Vze6Pdg3DEyfGD1pknpdptDO4xE1NRmsYUOjCuGIQUMly6uK0lui3M7bdiMkd46ikw==", "admin"=>{"email"=>"lowell@dicki.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"2"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? AND "admins"."id" != ? LIMIT ?[0m  [["email", "lowell@dicki.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (137.0ms)
+Completed 500 Internal Server Error in 316ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `admins_backoffice_path' for #<#<Class:0x0000564431e98a10>:0x0000564431468cc0>
+Did you mean?  admins_backoffice_admin_path):
+     6:     </div>
+     7:     <div class="card-body">
+     8: 
+     9:         <%= form_with(model: [ :admins_backoffice, @admin ], local: true) do |form|%>
+    10:             <div class='form-group'>
+    11:                 <%= form.label :email %>
+    12:                 <%= form.text_field :email, class:'form-control', placeholder:'Digite o e-mail'%>
+  
+app/views/admins_backoffice/admins/edit.html.erb:9:in `_app_views_admins_backoffice_admins_edit_html_erb__2393596239807225439_47425447261400'
+app/controllers/admins_backoffice/admins_controller.rb:17:in `update'
+Started GET "/admins_backoffice/admins/2/edit" for ::1 at 2021-02-17 16:59:17 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (15.7ms)
+Completed 200 OK in 461ms (Views: 457.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 16:59:19 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:13
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (3.0ms)
+Completed 200 OK in 42ms (Views: 38.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admins_backoffice/admins/3/edit" for ::1 at 2021-02-17 16:59:22 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.4ms)
+Completed 200 OK in 57ms (Views: 54.0ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/admins_backoffice/admins/3" for ::1 at 2021-02-17 16:59:26 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KU6RwEoP1PlffgKeCYo3j9nA64j93f4Map+E72h8DY7rtlep/6g4R9Ew8aNyWw39JdFcgpFzbl2p1M5ZZa8JzQ==", "admin"=>{"email"=>"elvis@cole-emard.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"3"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[36mAdmin Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? AND "admins"."id" != ? LIMIT ?[0m  [["email", "elvis@cole-emard.com"], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (126.8ms)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `admins_backoffice_path' for #<#<Class:0x0000564431e98a10>:0x00007fc305b99ba8>
+Did you mean?  admins_backoffice_admin_path):
+     6:     </div>
+     7:     <div class="card-body">
+     8: 
+     9:         <%= form_with(model: [ :admins_backoffice, @admin ], local: true) do |form|%>
+    10:             <div class='form-group'>
+    11:                 <%= form.label :email %>
+    12:                 <%= form.text_field :email, class:'form-control', placeholder:'Digite o e-mail'%>
+  
+app/views/admins_backoffice/admins/edit.html.erb:9:in `_app_views_admins_backoffice_admins_edit_html_erb__2393596239807225439_70237795697920'
+app/controllers/admins_backoffice/admins_controller.rb:17:in `update'
+Started GET "/admins_backoffice/admins/3/edit" for ::1 at 2021-02-17 17:00:21 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.5ms)
+Completed 200 OK in 47ms (Views: 44.0ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/admins_backoffice/admins/3" for ::1 at 2021-02-17 17:00:28 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XnY2RoWpwj+zF1S2zN8MGwOPZqKJSWadmBkTDL19mHWcjvAvMA4ugT1Zp4u3DjZp/57RqOXn9sxbUlm6sK6cNg==", "admin"=>{"email"=>"elvis@cole-emard.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"3"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? AND "admins"."id" != ? LIMIT ?[0m  [["email", "elvis@cole-emard.com"], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[36mAdmin Update (0.4ms)[0m  [1m[33mUPDATE "admins" SET "email" = ?, "encrypted_password" = ?, "updated_at" = ? WHERE "admins"."id" = ?[0m  [["email", "elvis@cole-emard.com"], ["encrypted_password", "$2a$12$Vb8gGU.8Q/i7PgrPvI4FHuoB2xkAB3V4vw/vrYSWC90gRzKJKVsQC"], ["updated_at", "2021-02-17 20:00:29.003623"], ["id", 3]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (13.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+Redirected to http://localhost:3000/admins_backoffice/admins
+Completed 302 Found in 255ms (ActiveRecord: 14.7ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 17:00:29 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:13
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (2.7ms)
+Completed 200 OK in 53ms (Views: 49.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 17:01:09 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.3ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:13
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (3.1ms)
+Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admins_backoffice/admins/2/edit" for ::1 at 2021-02-17 17:01:10 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.0ms)
+Completed 200 OK in 70ms (Views: 35.2ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/admins_backoffice/admins/2" for ::1 at 2021-02-17 17:01:19 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pDMjKU0HrNL8mdyDIK4UjoKVPF1/RNnZdHyViUxNyEpmy+VA+KBAbHLXL75bfy78foSLVxPqSYi3N98/QZ7MCQ==", "admin"=>{"email"=>"lowell@dicki.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"2"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? AND "admins"."id" != ? LIMIT ?[0m  [["email", "lowell@dicki.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (123.8ms)
+Completed 500 Internal Server Error in 354ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `admins_backoffice_path' for #<#<Class:0x0000564431e98a10>:0x00007fc305ca3170>
+Did you mean?  admins_backoffice_admin_path):
+     6:     </div>
+     7:     <div class="card-body">
+     8: 
+     9:         <%= form_with(model: [ :admins_backoffice, @admin ], local: true) do |form|%>
+    10:             <div class='form-group'>
+    11:                 <%= form.label :email %>
+    12:                 <%= form.text_field :email, class:'form-control', placeholder:'Digite o e-mail'%>
+  
+app/views/admins_backoffice/admins/edit.html.erb:9:in `_app_views_admins_backoffice_admins_edit_html_erb__2393596239807225439_70237796241380'
+app/controllers/admins_backoffice/admins_controller.rb:17:in `update'
+Started PATCH "/admins_backoffice/admins/2" for ::1 at 2021-02-17 17:02:16 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pDMjKU0HrNL8mdyDIK4UjoKVPF1/RNnZdHyViUxNyEpmy+VA+KBAbHLXL75bfy78foSLVxPqSYi3N98/QZ7MCQ==", "admin"=>{"email"=>"lowell@dicki.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"2"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? AND "admins"."id" != ? LIMIT ?[0m  [["email", "lowell@dicki.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (191.7ms)
+Completed 500 Internal Server Error in 426ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `admins_backoffice_path' for #<#<Class:0x0000564431e98a10>:0x00007fc305d3f1d8>
+Did you mean?  admins_backoffice_admin_path):
+     6:     </div>
+     7:     <div class="card-body">
+     8: 
+     9:         <%= form_with(model: [ :admins_backoffice, @admin ], local: true) do |form|%>
+    10:             <div class='form-group'>
+    11:                 <%= form.label :email %>
+    12:                 <%= form.text_field :email, class:'form-control', placeholder:'Digite o e-mail'%>
+  
+app/views/admins_backoffice/admins/edit.html.erb:9:in `_app_views_admins_backoffice_admins_edit_html_erb__2393596239807225439_70237796560920'
+app/controllers/admins_backoffice/admins_controller.rb:17:in `update'
+Started PATCH "/admins_backoffice/admins/2" for ::1 at 2021-02-17 17:02:18 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pDMjKU0HrNL8mdyDIK4UjoKVPF1/RNnZdHyViUxNyEpmy+VA+KBAbHLXL75bfy78foSLVxPqSYi3N98/QZ7MCQ==", "admin"=>{"email"=>"lowell@dicki.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"2"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? AND "admins"."id" != ? LIMIT ?[0m  [["email", "lowell@dicki.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (150.1ms)
+Completed 500 Internal Server Error in 387ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `admins_backoffice_path' for #<#<Class:0x0000564431e98a10>:0x00007fc305ec2370>
+Did you mean?  admins_backoffice_admin_path):
+     6:     </div>
+     7:     <div class="card-body">
+     8: 
+     9:         <%= form_with(model: [ :admins_backoffice, @admin ], local: true) do |form|%>
+    10:             <div class='form-group'>
+    11:                 <%= form.label :email %>
+    12:                 <%= form.text_field :email, class:'form-control', placeholder:'Digite o e-mail'%>
+  
+app/views/admins_backoffice/admins/edit.html.erb:9:in `_app_views_admins_backoffice_admins_edit_html_erb__2393596239807225439_70237797353700'
+app/controllers/admins_backoffice/admins_controller.rb:17:in `update'
+Started POST "/__web_console/repl_sessions/637b86845ad4bfc6ec7c744d7913df71/trace" for ::1 at 2021-02-17 17:02:26 -0300
+Started POST "/__web_console/repl_sessions/637b86845ad4bfc6ec7c744d7913df71/trace" for ::1 at 2021-02-17 17:03:00 -0300
+Started PATCH "/admins_backoffice/admins/2" for ::1 at 2021-02-17 17:05:11 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pDMjKU0HrNL8mdyDIK4UjoKVPF1/RNnZdHyViUxNyEpmy+VA+KBAbHLXL75bfy78foSLVxPqSYi3N98/QZ7MCQ==", "admin"=>{"email"=>"lowell@dicki.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"2"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? AND "admins"."id" != ? LIMIT ?[0m  [["email", "lowell@dicki.com"], ["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (4.7ms)
+Completed 200 OK in 815ms (Views: 388.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 17:05:14 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT "admins".* FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:13
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (2.6ms)
+Completed 200 OK in 36ms (Views: 32.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admins_backoffice/admins/1/edit" for ::1 at 2021-02-17 17:05:16 -0300
+Processing by AdminsBackoffice::AdminsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:7
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.2ms)
+Completed 200 OK in 40ms (Views: 36.1ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 17:05:18 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cm0qUdj9MpZvxoJofz+SSR9CcHS3pIK8ivWvBtpHx4fIlew4bVreKOGIcVUE7qg741PHftsKEu1JvuWw15TDxA==", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.0ms)
+Completed 200 OK in 53ms (Views: 46.9ms | ActiveRecord: 0.5ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAdmin Exists (0.3ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "teste@teste.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mAdmin Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "admins" WHERE "admins"."email" = ? LIMIT ?[0m  [["email", "teste@teste.com"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 17:11:37 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cm0qUdj9MpZvxoJofz+SSR9CcHS3pIK8ivWvBtpHx4fIlew4bVreKOGIcVUE7qg741PHftsKEu1JvuWw15TDxA==", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (4.8ms)
+Completed 200 OK in 574ms (Views: 395.9ms | ActiveRecord: 1.0ms)
+
+
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 17:11:43 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cm0qUdj9MpZvxoJofz+SSR9CcHS3pIK8ivWvBtpHx4fIlew4bVreKOGIcVUE7qg741PHftsKEu1JvuWw15TDxA==", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.0ms)
+Completed 200 OK in 40ms (Views: 35.4ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 17:12:23 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cm0qUdj9MpZvxoJofz+SSR9CcHS3pIK8ivWvBtpHx4fIlew4bVreKOGIcVUE7qg741PHftsKEu1JvuWw15TDxA==", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.0ms)
+Completed 200 OK in 39ms (Views: 34.7ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 17:12:47 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cm0qUdj9MpZvxoJofz+SSR9CcHS3pIK8ivWvBtpHx4fIlew4bVreKOGIcVUE7qg741PHftsKEu1JvuWw15TDxA==", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (1.9ms)
+Completed 200 OK in 60ms (Views: 54.4ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 17:13:32 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cm0qUdj9MpZvxoJofz+SSR9CcHS3pIK8ivWvBtpHx4fIlew4bVreKOGIcVUE7qg741PHftsKEu1JvuWw15TDxA==", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (10.2ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <h1>Editando</h1>
+    2: <hr>
+    3: <% if @admins.errors.any?%>
+    4: <div class="alert alert-danger alert-dismissable">
+    5:   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">x</button>
+    6: </div>
+  
+app/views/admins_backoffice/admins/edit.html.erb:3:in `_app_views_admins_backoffice_admins_edit_html_erb__2897834180637211483_69959865160080'
+app/controllers/admins_backoffice/admins_controller.rb:17:in `update'
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 17:13:43 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cm0qUdj9MpZvxoJofz+SSR9CcHS3pIK8ivWvBtpHx4fIlew4bVreKOGIcVUE7qg741PHftsKEu1JvuWw15TDxA==", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.8ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    1: <h1>Editando</h1>
+    2: <hr>
+    3: <% if @admins.errors.any? %>
+    4: <div class="alert alert-danger alert-dismissable">
+    5:   <button type="button" class="close" data-dismiss="alert" aria-hidden="true">x</button>
+    6: </div>
+  
+app/views/admins_backoffice/admins/edit.html.erb:3:in `_app_views_admins_backoffice_admins_edit_html_erb__2897834180637211483_69959870072840'
+app/controllers/admins_backoffice/admins_controller.rb:17:in `update'
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 17:14:34 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cm0qUdj9MpZvxoJofz+SSR9CcHS3pIK8ivWvBtpHx4fIlew4bVreKOGIcVUE7qg741PHftsKEu1JvuWw15TDxA==", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.2ms)
+Completed 200 OK in 38ms (Views: 33.2ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 17:14:40 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cm0qUdj9MpZvxoJofz+SSR9CcHS3pIK8ivWvBtpHx4fIlew4bVreKOGIcVUE7qg741PHftsKEu1JvuWw15TDxA==", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.6ms)
+Completed 200 OK in 41ms (Views: 36.1ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 17:14:54 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Cm0qUdj9MpZvxoJofz+SSR9CcHS3pIK8ivWvBtpHx4fIlew4bVreKOGIcVUE7qg741PHftsKEu1JvuWw15TDxA==", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.2ms)
+Completed 200 OK in 38ms (Views: 32.1ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 17:15:59 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ooiKsUaCNljx1THnEhxN5/GE9ySA9O1BKVpbVSbbZkRgcEzY8yXa5n+bwtppzXeVDZVALuxafRDqERHjKwhiBw==", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.0ms)
+Completed 200 OK in 39ms (Views: 33.1ms | ActiveRecord: 0.5ms)
+
+
+Started PATCH "/admins_backoffice/admins/1" for ::1 at 2021-02-17 17:16:22 -0300
+Processing by AdminsBackoffice::AdminsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"30bJoMtGAzFSrTYaH0maVEwCyhL5op83f47DKR+gMRYdvg/JfuHvj9zjxSdkmKAmsBN9GJUMD2a8xYmfEnM1VQ==", "admin"=>{"email"=>"admin@admin.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "id"=>"1"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:11
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admins_backoffice/admins_controller.rb:14
+  Rendering admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/admins/edit.html.erb within layouts/admins_backoffice (2.1ms)
+Completed 200 OK in 258ms (Views: 31.0ms | ActiveRecord: 0.4ms)
+
+
