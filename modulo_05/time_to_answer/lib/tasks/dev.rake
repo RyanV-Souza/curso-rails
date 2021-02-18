@@ -10,9 +10,10 @@ namespace :dev do
       show_spinner('Criando Database'){ %x(rails db:create) }  
       show_spinner('Migrando Database') { %x(rails db:migrate) }
       show_spinner('Adicionando administrador padrão') { %x(rails dev:add_default_admin) }
-      show_spinner('Adicionando administrador extras') { %x(rails dev:add_extra_admins) }
+      show_spinner('Adicionando administradores extras') { %x(rails dev:add_extra_admins) }
       show_spinner('Adicionando usuário padrão') { %x(rails dev:add_default_user) }
       show_spinner('Adicionando assuntos padrões') { %x(rails dev:add_subjects) }
+      show_spinner('Adicionando perguntas e respostas') { %x(rails dev:add_answers_and_questions) }
 
       #%x(rails dev:add_mining_types)
       #%x(rails dev:add_coins)
@@ -58,6 +59,18 @@ namespace :dev do
 
     File.open(file_path, 'r').each do |line|
         Subject.create!(description: line.strip)
+    end
+  end
+
+  desc "Adiciona perguntas e respostas"
+  task add_answers_and_questions: :environment do
+    Subject.all.each do |subject|
+      rand(5..10).times do |i|
+        Question.create!(
+          description: "#{Faker::Lorem.paragraph} #{Faker::Lorem.question}",
+          subject: subject
+        )
+      end
     end
   end
 
