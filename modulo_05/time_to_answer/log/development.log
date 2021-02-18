@@ -10510,3 +10510,337 @@ Processing by AdminsBackoffice::SubjectsController#index as HTML
 Completed 200 OK in 57ms (Views: 55.1ms | ActiveRecord: 0.4ms)
 
 
+Started GET "/admins_backoffice/subjects" for ::1 at 2021-02-17 21:39:50 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.2ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:40
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (16.8ms)
+Completed 200 OK in 66ms (Views: 63.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admins_backoffice/subjects/2/edit" for ::1 at 2021-02-17 21:39:52 -0300
+Processing by AdminsBackoffice::SubjectsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mSubject Load (0.2ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:48
+  Rendering admins_backoffice/subjects/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/subjects/shared/_form.html.erb (8.7ms)
+  Rendered admins_backoffice/subjects/edit.html.erb within layouts/admins_backoffice (9.7ms)
+Completed 200 OK in 82ms (Views: 77.9ms | ActiveRecord: 0.4ms)
+
+
+Started PATCH "/admins_backoffice/subjects/2" for ::1 at 2021-02-17 21:40:20 -0300
+Processing by AdminsBackoffice::SubjectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"EJ7ZvYNdVDj4/mS55fczyybrl93rHk3ITIZsVXp4XN/pSY8LV0pV5FrCjqw4XL3CJHdOqMWSWgCk0BWZL+p0eA==", "subject"=>{"description"=>"Administração de Recursos Materiaisssss"}, "id"=>"2"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:48
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:29
+  [1m[36mSubject Update (0.5ms)[0m  [1m[33mUPDATE "subjects" SET "description" = ?, "updated_at" = ? WHERE "subjects"."id" = ?[0m  [["description", "Administração de Recursos Materiaisssss"], ["updated_at", "2021-02-18 00:40:20.677815"], ["id", 2]]
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:29
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:29
+Redirected to http://localhost:3000/admins_backoffice/subjects
+Completed 302 Found in 15ms (ActiveRecord: 8.9ms)
+
+
+Started GET "/admins_backoffice/subjects" for ::1 at 2021-02-17 21:40:20 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.2ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:40
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (12.9ms)
+Completed 200 OK in 57ms (Views: 53.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admins_backoffice/subjects/2/edit" for ::1 at 2021-02-17 21:40:23 -0300
+Processing by AdminsBackoffice::SubjectsController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:48
+  Rendering admins_backoffice/subjects/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/subjects/shared/_form.html.erb (2.4ms)
+  Rendered admins_backoffice/subjects/edit.html.erb within layouts/admins_backoffice (3.9ms)
+Completed 200 OK in 46ms (Views: 41.8ms | ActiveRecord: 0.3ms)
+
+
+Started PATCH "/admins_backoffice/subjects/2" for ::1 at 2021-02-17 21:40:29 -0300
+Processing by AdminsBackoffice::SubjectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Jza+3E+Kw6yFH70AyFSwi7mqwR83yzyj86GnzQr8B5je4ehqm53CcCcjVxUV/z6CuzYYahlHK2sb994BX24vPw==", "subject"=>{"description"=>"Administração de Recursos Materiais"}, "id"=>"2"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mSubject Load (0.2ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:48
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:29
+  [1m[36mSubject Update (0.5ms)[0m  [1m[33mUPDATE "subjects" SET "description" = ?, "updated_at" = ? WHERE "subjects"."id" = ?[0m  [["description", "Administração de Recursos Materiais"], ["updated_at", "2021-02-18 00:40:29.052970"], ["id", 2]]
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:29
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:29
+Redirected to http://localhost:3000/admins_backoffice/subjects
+Completed 302 Found in 17ms (ActiveRecord: 8.8ms)
+
+
+Started GET "/admins_backoffice/subjects" for ::1 at 2021-02-17 21:40:29 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.2ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:40
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (14.3ms)
+Completed 200 OK in 57ms (Views: 54.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admins_backoffice/subjects/new" for ::1 at 2021-02-17 21:40:30 -0300
+Processing by AdminsBackoffice::SubjectsController#new as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/new.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/subjects/shared/_form.html.erb (1.5ms)
+  Rendered admins_backoffice/subjects/new.html.erb within layouts/admins_backoffice (2.5ms)
+Completed 200 OK in 39ms (Views: 36.9ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/admins_backoffice/subjects" for ::1 at 2021-02-17 21:40:33 -0300
+Processing by AdminsBackoffice::SubjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Rcnn42FCHvDWn8wnOPrVIyu1prJb5OCBCkFAqVmtd128HrFVtVUfLHSjJjLlUVsqKSl/x3Vo90niFzllDD9f+g==", "subject"=>{"description"=>"Oi"}}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:16
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Oi"], ["created_at", "2021-02-18 00:40:33.915843"], ["updated_at", "2021-02-18 00:40:33.915843"]]
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:16
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:16
+Redirected to http://localhost:3000/admins_backoffice/subjects
+Completed 302 Found in 16ms (ActiveRecord: 7.5ms)
+
+
+Started GET "/admins_backoffice/subjects" for ::1 at 2021-02-17 21:40:33 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:40
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (13.2ms)
+Completed 200 OK in 55ms (Views: 51.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admins_backoffice/subjects?page=26" for ::1 at 2021-02-17 21:40:36 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  Parameters: {"page"=>"26"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 250]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (11.1ms)
+Completed 200 OK in 45ms (Views: 41.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/subjects?page=26" for ::1 at 2021-02-17 21:41:35 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  Parameters: {"page"=>"26"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 250]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (12.5ms)
+Completed 200 OK in 52ms (Views: 49.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/subjects/252/edit" for ::1 at 2021-02-17 21:41:36 -0300
+Processing by AdminsBackoffice::SubjectsController#edit as HTML
+  Parameters: {"id"=>"252"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 252], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:48
+  Rendering admins_backoffice/subjects/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/subjects/shared/_form.html.erb (169.1ms)
+  Rendered admins_backoffice/subjects/edit.html.erb within layouts/admins_backoffice (170.3ms)
+Completed 500 Internal Server Error in 175ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `subjects_subject_path' for #<#<Class:0x00007f2059c273f8>:0x00007f2059d2aef8>):
+    17:     </div>
+    18:     <div class="card-body">
+    19: 
+    20:         <%= form_with(model: [ :subjects, @subject ], local: true) do |form|%>
+    21: 
+    22:             <div class='form-group'>
+    23:                 <%= form.label :description %>
+  
+app/views/admins_backoffice/subjects/shared/_form.html.erb:20:in `_app_views_admins_backoffice_subjects_shared__form_html_erb___1046068755600781322_69888461334600'
+app/views/admins_backoffice/subjects/edit.html.erb:1:in `_app_views_admins_backoffice_subjects_edit_html_erb__2009463634109103570_69888461331840'
+Started GET "/admins_backoffice/subjects?page=26" for ::1 at 2021-02-17 21:41:48 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  Parameters: {"page"=>"26"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 250]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (15.0ms)
+Completed 200 OK in 77ms (Views: 74.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admins_backoffice/subjects/252/edit" for ::1 at 2021-02-17 21:41:50 -0300
+Processing by AdminsBackoffice::SubjectsController#edit as HTML
+  Parameters: {"id"=>"252"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  [1m[36mSubject Load (0.1ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" WHERE "subjects"."id" = ? LIMIT ?[0m  [["id", 252], ["LIMIT", 1]]
+  ↳ app/controllers/admins_backoffice/subjects_controller.rb:48
+  Rendering admins_backoffice/subjects/edit.html.erb within layouts/admins_backoffice
+  Rendered admins_backoffice/subjects/shared/_form.html.erb (3.2ms)
+  Rendered admins_backoffice/subjects/edit.html.erb within layouts/admins_backoffice (5.1ms)
+Completed 200 OK in 61ms (Views: 57.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admins_backoffice/subjects" for ::1 at 2021-02-17 21:42:35 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.3ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" ORDER BY "subjects"."description" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 0]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:40
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (19.2ms)
+Completed 200 OK in 89ms (Views: 75.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/admins_backoffice/subjects?page=3" for ::1 at 2021-02-17 21:42:52 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  Parameters: {"page"=>"3"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.2ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" ORDER BY "subjects"."description" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 20]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:40
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (19.1ms)
+Completed 200 OK in 99ms (Views: 55.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admins_backoffice/subjects?page=26" for ::1 at 2021-02-17 21:42:55 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  Parameters: {"page"=>"26"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.4ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" ORDER BY "subjects"."description" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 250]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (12.4ms)
+Completed 200 OK in 49ms (Views: 46.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admins_backoffice/subjects?page=25" for ::1 at 2021-02-17 21:42:59 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  Parameters: {"page"=>"25"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.3ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" ORDER BY "subjects"."description" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 240]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:40
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (14.5ms)
+Completed 200 OK in 50ms (Views: 46.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admins_backoffice/subjects?page=24" for ::1 at 2021-02-17 21:43:04 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  Parameters: {"page"=>"24"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.4ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" ORDER BY "subjects"."description" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 230]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:40
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (17.9ms)
+Completed 200 OK in 64ms (Views: 60.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admins_backoffice/subjects?page=23" for ::1 at 2021-02-17 21:43:06 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  Parameters: {"page"=>"23"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.4ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" ORDER BY "subjects"."description" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 220]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:40
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (16.6ms)
+Completed 200 OK in 56ms (Views: 52.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admins_backoffice/subjects?page=22" for ::1 at 2021-02-17 21:43:09 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  Parameters: {"page"=>"22"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.3ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" ORDER BY "subjects"."description" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 210]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:40
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (17.3ms)
+Completed 200 OK in 54ms (Views: 50.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admins_backoffice/subjects?page=20" for ::1 at 2021-02-17 21:43:13 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  Parameters: {"page"=>"20"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.3ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" ORDER BY "subjects"."description" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 190]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:40
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (16.0ms)
+Completed 200 OK in 76ms (Views: 73.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admins_backoffice/subjects?page=21" for ::1 at 2021-02-17 21:43:16 -0300
+Processing by AdminsBackoffice::SubjectsController#index as HTML
+  Parameters: {"page"=>"21"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice
+  [1m[36mSubject Load (0.3ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" ORDER BY "subjects"."description" ASC LIMIT ? OFFSET ?[0m  [["LIMIT", 10], ["OFFSET", 200]]
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:18
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+  ↳ app/views/admins_backoffice/subjects/index.html.erb:40
+  Rendered admins_backoffice/subjects/index.html.erb within layouts/admins_backoffice (16.0ms)
+Completed 200 OK in 52ms (Views: 47.7ms | ActiveRecord: 0.7ms)
+
+
