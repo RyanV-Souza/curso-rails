@@ -8822,3 +8822,1590 @@ FOREIGN KEY ("question_id")
   [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
   [1m[36mSubject Create (0.6ms)[0m  [1m[32mINSERT INTO "subjects" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2021-02-17 22:32:41.723796"], ["updated_at", "2021-02-17 22:32:41.723796"]]
   [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Acionamentos e controles elétricos"], ["created_at", "2021-02-17 22:52:22.208477"], ["updated_at", "2021-02-17 22:52:22.208477"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (12.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.2ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Administração de Recursos Materiais"], ["created_at", "2021-02-17 22:52:22.225554"], ["updated_at", "2021-02-17 22:52:22.225554"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (9.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Administração Financeira e Orçamentária"], ["created_at", "2021-02-17 22:52:22.245962"], ["updated_at", "2021-02-17 22:52:22.245962"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Administração Geral"], ["created_at", "2021-02-17 22:52:22.257732"], ["updated_at", "2021-02-17 22:52:22.257732"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Administração Pública"], ["created_at", "2021-02-17 22:52:22.267612"], ["updated_at", "2021-02-17 22:52:22.267612"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Agronomia"], ["created_at", "2021-02-17 22:52:22.276360"], ["updated_at", "2021-02-17 22:52:22.276360"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Álgebra"], ["created_at", "2021-02-17 22:52:22.283447"], ["updated_at", "2021-02-17 22:52:22.283447"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (8.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Algoritmos e Estrutura de Dados"], ["created_at", "2021-02-17 22:52:22.295865"], ["updated_at", "2021-02-17 22:52:22.295865"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.8ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Análise de Balanços"], ["created_at", "2021-02-17 22:52:22.314688"], ["updated_at", "2021-02-17 22:52:22.314688"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Análise de sistemas elétricos"], ["created_at", "2021-02-17 22:52:22.323010"], ["updated_at", "2021-02-17 22:52:22.323010"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Anatomia Aplicada à Odontologia"], ["created_at", "2021-02-17 22:52:22.331821"], ["updated_at", "2021-02-17 22:52:22.331821"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.7ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Anatomia Dental"], ["created_at", "2021-02-17 22:52:22.339216"], ["updated_at", "2021-02-17 22:52:22.339216"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (12.7ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Anatomia Humana"], ["created_at", "2021-02-17 22:52:22.346121"], ["updated_at", "2021-02-17 22:52:22.346121"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Antropologia"], ["created_at", "2021-02-17 22:52:22.365838"], ["updated_at", "2021-02-17 22:52:22.365838"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Aritmética"], ["created_at", "2021-02-17 22:52:22.372935"], ["updated_at", "2021-02-17 22:52:22.372935"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Arqueologia"], ["created_at", "2021-02-17 22:52:22.381015"], ["updated_at", "2021-02-17 22:52:22.381015"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Arquitetura"], ["created_at", "2021-02-17 22:52:22.388819"], ["updated_at", "2021-02-17 22:52:22.388819"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Arquitetura de Computadores"], ["created_at", "2021-02-17 22:52:22.396969"], ["updated_at", "2021-02-17 22:52:22.396969"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Arquitetura de Software"], ["created_at", "2021-02-17 22:52:22.403520"], ["updated_at", "2021-02-17 22:52:22.403520"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Arquivologia"], ["created_at", "2021-02-17 22:52:22.415324"], ["updated_at", "2021-02-17 22:52:22.415324"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.8ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Artes Gráficas"], ["created_at", "2021-02-17 22:52:22.425148"], ["updated_at", "2021-02-17 22:52:22.425148"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Atendimento (Escriturário)"], ["created_at", "2021-02-17 22:52:22.434705"], ["updated_at", "2021-02-17 22:52:22.434705"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Atendimento ao Público"], ["created_at", "2021-02-17 22:52:22.442969"], ["updated_at", "2021-02-17 22:52:22.442969"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Atualidades"], ["created_at", "2021-02-17 22:52:22.452366"], ["updated_at", "2021-02-17 22:52:22.452366"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Atuária"], ["created_at", "2021-02-17 22:52:22.460916"], ["updated_at", "2021-02-17 22:52:22.460916"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Áudio e Vídeo"], ["created_at", "2021-02-17 22:52:22.468112"], ["updated_at", "2021-02-17 22:52:22.468112"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (3.2ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Auditoria"], ["created_at", "2021-02-17 22:52:22.476133"], ["updated_at", "2021-02-17 22:52:22.476133"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Auditoria de Obras Públicas"], ["created_at", "2021-02-17 22:52:22.492243"], ["updated_at", "2021-02-17 22:52:22.492243"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Auditoria Governamental"], ["created_at", "2021-02-17 22:52:22.501476"], ["updated_at", "2021-02-17 22:52:22.501476"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Banco de Dados"], ["created_at", "2021-02-17 22:52:22.508028"], ["updated_at", "2021-02-17 22:52:22.508028"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Biblioteconomia"], ["created_at", "2021-02-17 22:52:22.515243"], ["updated_at", "2021-02-17 22:52:22.515243"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Biologia"], ["created_at", "2021-02-17 22:52:22.522148"], ["updated_at", "2021-02-17 22:52:22.522148"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Censo"], ["created_at", "2021-02-17 22:52:22.531910"], ["updated_at", "2021-02-17 22:52:22.531910"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Ciências da Natureza e suas Tecnologias"], ["created_at", "2021-02-17 22:52:22.538381"], ["updated_at", "2021-02-17 22:52:22.538381"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Ciências Humanas e suas Tecnologias"], ["created_at", "2021-02-17 22:52:22.544792"], ["updated_at", "2021-02-17 22:52:22.544792"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Ciências Políticas"], ["created_at", "2021-02-17 22:52:22.551882"], ["updated_at", "2021-02-17 22:52:22.551882"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Ciências Sociais"], ["created_at", "2021-02-17 22:52:22.560749"], ["updated_at", "2021-02-17 22:52:22.560749"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Circuitos elétricos"], ["created_at", "2021-02-17 22:52:22.570204"], ["updated_at", "2021-02-17 22:52:22.570204"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Código de Organização Judiciária"], ["created_at", "2021-02-17 22:52:22.578281"], ["updated_at", "2021-02-17 22:52:22.578281"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Código Disciplinar da Polícia Militar do Estado do Ceará"], ["created_at", "2021-02-17 22:52:22.586327"], ["updated_at", "2021-02-17 22:52:22.586327"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Comércio Internacional (Exterior)"], ["created_at", "2021-02-17 22:52:22.595425"], ["updated_at", "2021-02-17 22:52:22.595425"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.9ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Comunicação Social"], ["created_at", "2021-02-17 22:52:22.603412"], ["updated_at", "2021-02-17 22:52:22.603412"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Conhecimentos Bancários"], ["created_at", "2021-02-17 22:52:22.610668"], ["updated_at", "2021-02-17 22:52:22.610668"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Conhecimentos de Serviços Gerais"], ["created_at", "2021-02-17 22:52:22.617254"], ["updated_at", "2021-02-17 22:52:22.617254"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Conhecimentos Gerais"], ["created_at", "2021-02-17 22:52:22.624155"], ["updated_at", "2021-02-17 22:52:22.624155"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Contabilidade Bancária"], ["created_at", "2021-02-17 22:52:22.630917"], ["updated_at", "2021-02-17 22:52:22.630917"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Contabilidade Comercial"], ["created_at", "2021-02-17 22:52:22.638255"], ["updated_at", "2021-02-17 22:52:22.638255"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Contabilidade de Custos"], ["created_at", "2021-02-17 22:52:22.647805"], ["updated_at", "2021-02-17 22:52:22.647805"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Contabilidade de Seguros"], ["created_at", "2021-02-17 22:52:22.657913"], ["updated_at", "2021-02-17 22:52:22.657913"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Contabilidade Geral"], ["created_at", "2021-02-17 22:52:22.668014"], ["updated_at", "2021-02-17 22:52:22.668014"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Contabilidade Gerencial"], ["created_at", "2021-02-17 22:52:22.677817"], ["updated_at", "2021-02-17 22:52:22.677817"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (1.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Contabilidade Pública"], ["created_at", "2021-02-17 22:52:22.686579"], ["updated_at", "2021-02-17 22:52:22.686579"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Contabilidade Tributária"], ["created_at", "2021-02-17 22:52:22.694820"], ["updated_at", "2021-02-17 22:52:22.694820"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Controle Externo"], ["created_at", "2021-02-17 22:52:22.703962"], ["updated_at", "2021-02-17 22:52:22.703962"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Correição no Poder Executivo Federal"], ["created_at", "2021-02-17 22:52:22.713766"], ["updated_at", "2021-02-17 22:52:22.713766"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Crescimento e Desenvolvimento Econômico"], ["created_at", "2021-02-17 22:52:22.724370"], ["updated_at", "2021-02-17 22:52:22.724370"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (1.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Criminalística"], ["created_at", "2021-02-17 22:52:22.735967"], ["updated_at", "2021-02-17 22:52:22.735967"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Cultura Geral"], ["created_at", "2021-02-17 22:52:22.747436"], ["updated_at", "2021-02-17 22:52:22.747436"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (7.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Desenho Industrial"], ["created_at", "2021-02-17 22:52:22.760285"], ["updated_at", "2021-02-17 22:52:22.760285"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Desenvolvimento de Sistemas"], ["created_at", "2021-02-17 22:52:22.768057"], ["updated_at", "2021-02-17 22:52:22.768057"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Designer Gráfico"], ["created_at", "2021-02-17 22:52:22.776207"], ["updated_at", "2021-02-17 22:52:22.776207"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Administrativo"], ["created_at", "2021-02-17 22:52:22.784059"], ["updated_at", "2021-02-17 22:52:22.784059"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (9.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Agrário"], ["created_at", "2021-02-17 22:52:22.797429"], ["updated_at", "2021-02-17 22:52:22.797429"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (1.2ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Ambiental"], ["created_at", "2021-02-17 22:52:22.807572"], ["updated_at", "2021-02-17 22:52:22.807572"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Civil"], ["created_at", "2021-02-17 22:52:22.818395"], ["updated_at", "2021-02-17 22:52:22.818395"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Comercial (Empresarial)"], ["created_at", "2021-02-17 22:52:22.825438"], ["updated_at", "2021-02-17 22:52:22.825438"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Comunitário"], ["created_at", "2021-02-17 22:52:22.834164"], ["updated_at", "2021-02-17 22:52:22.834164"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Constitucional"], ["created_at", "2021-02-17 22:52:22.843310"], ["updated_at", "2021-02-17 22:52:22.843310"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito da Criança e do Adolescente"], ["created_at", "2021-02-17 22:52:22.853500"], ["updated_at", "2021-02-17 22:52:22.853500"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (10.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.9ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito do Consumidor"], ["created_at", "2021-02-17 22:52:22.869629"], ["updated_at", "2021-02-17 22:52:22.869629"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito do Trabalho"], ["created_at", "2021-02-17 22:52:22.887719"], ["updated_at", "2021-02-17 22:52:22.887719"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (13.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (2.0ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Econômico-Financeiro"], ["created_at", "2021-02-17 22:52:22.904400"], ["updated_at", "2021-02-17 22:52:22.904400"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (5.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Eleitoral"], ["created_at", "2021-02-17 22:52:22.915744"], ["updated_at", "2021-02-17 22:52:22.915744"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (10.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Internacional Privado"], ["created_at", "2021-02-17 22:52:22.935345"], ["updated_at", "2021-02-17 22:52:22.935345"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (9.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (2.2ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Internacional Público"], ["created_at", "2021-02-17 22:52:22.948602"], ["updated_at", "2021-02-17 22:52:22.948602"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (7.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (2.0ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Marítimo"], ["created_at", "2021-02-17 22:52:22.963546"], ["updated_at", "2021-02-17 22:52:22.963546"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Notarial e Registral"], ["created_at", "2021-02-17 22:52:22.976184"], ["updated_at", "2021-02-17 22:52:22.976184"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (1.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Penal"], ["created_at", "2021-02-17 22:52:22.985710"], ["updated_at", "2021-02-17 22:52:22.985710"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Penal Militar"], ["created_at", "2021-02-17 22:52:22.996913"], ["updated_at", "2021-02-17 22:52:22.996913"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Previdenciário"], ["created_at", "2021-02-17 22:52:23.006336"], ["updated_at", "2021-02-17 22:52:23.006336"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Processual Civil"], ["created_at", "2021-02-17 22:52:23.013861"], ["updated_at", "2021-02-17 22:52:23.013861"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Processual do Trabalho"], ["created_at", "2021-02-17 22:52:23.021207"], ["updated_at", "2021-02-17 22:52:23.021207"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Processual Penal"], ["created_at", "2021-02-17 22:52:23.031802"], ["updated_at", "2021-02-17 22:52:23.031802"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Processual Penal Militar"], ["created_at", "2021-02-17 22:52:23.041003"], ["updated_at", "2021-02-17 22:52:23.041003"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Sanitário"], ["created_at", "2021-02-17 22:52:23.048992"], ["updated_at", "2021-02-17 22:52:23.048992"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Tributário"], ["created_at", "2021-02-17 22:52:23.059158"], ["updated_at", "2021-02-17 22:52:23.059158"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (58.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direito Urbanístico"], ["created_at", "2021-02-17 22:52:23.120860"], ["updated_at", "2021-02-17 22:52:23.120860"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direitos Difusos e Coletivos"], ["created_at", "2021-02-17 22:52:23.144105"], ["updated_at", "2021-02-17 22:52:23.144105"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Direitos Humanos"], ["created_at", "2021-02-17 22:52:23.151885"], ["updated_at", "2021-02-17 22:52:23.151885"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Economia"], ["created_at", "2021-02-17 22:52:23.158995"], ["updated_at", "2021-02-17 22:52:23.158995"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Economia Brasileira"], ["created_at", "2021-02-17 22:52:23.166518"], ["updated_at", "2021-02-17 22:52:23.166518"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.6ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Economia do Trabalho"], ["created_at", "2021-02-17 22:52:23.174058"], ["updated_at", "2021-02-17 22:52:23.174058"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (8.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Economia internacional"], ["created_at", "2021-02-17 22:52:23.186205"], ["updated_at", "2021-02-17 22:52:23.186205"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Edificações"], ["created_at", "2021-02-17 22:52:23.194035"], ["updated_at", "2021-02-17 22:52:23.194035"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Educação Física"], ["created_at", "2021-02-17 22:52:23.201495"], ["updated_at", "2021-02-17 22:52:23.201495"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Eletricidade"], ["created_at", "2021-02-17 22:52:23.211326"], ["updated_at", "2021-02-17 22:52:23.211326"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Eletroeletrônica"], ["created_at", "2021-02-17 22:52:23.218575"], ["updated_at", "2021-02-17 22:52:23.218575"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Eletromagnetismo"], ["created_at", "2021-02-17 22:52:23.228224"], ["updated_at", "2021-02-17 22:52:23.228224"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Eletrônica Analógica"], ["created_at", "2021-02-17 22:52:23.235592"], ["updated_at", "2021-02-17 22:52:23.235592"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (9.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Eletrônica de Potência"], ["created_at", "2021-02-17 22:52:23.248159"], ["updated_at", "2021-02-17 22:52:23.248159"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Eletrônica Digital"], ["created_at", "2021-02-17 22:52:23.260631"], ["updated_at", "2021-02-17 22:52:23.260631"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Endodontia"], ["created_at", "2021-02-17 22:52:23.272408"], ["updated_at", "2021-02-17 22:52:23.272408"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Enfermagem"], ["created_at", "2021-02-17 22:52:23.279249"], ["updated_at", "2021-02-17 22:52:23.279249"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.8ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia Aeronáutica"], ["created_at", "2021-02-17 22:52:23.289682"], ["updated_at", "2021-02-17 22:52:23.289682"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia Agronômica"], ["created_at", "2021-02-17 22:52:23.303014"], ["updated_at", "2021-02-17 22:52:23.303014"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia Ambiental"], ["created_at", "2021-02-17 22:52:23.311602"], ["updated_at", "2021-02-17 22:52:23.311602"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia Civil"], ["created_at", "2021-02-17 22:52:23.319242"], ["updated_at", "2021-02-17 22:52:23.319242"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia de Automação e Controle"], ["created_at", "2021-02-17 22:52:23.329048"], ["updated_at", "2021-02-17 22:52:23.329048"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.8ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia de Materiais"], ["created_at", "2021-02-17 22:52:23.337372"], ["updated_at", "2021-02-17 22:52:23.337372"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia de Minas"], ["created_at", "2021-02-17 22:52:23.346069"], ["updated_at", "2021-02-17 22:52:23.346069"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.7ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia de Pesca"], ["created_at", "2021-02-17 22:52:23.354860"], ["updated_at", "2021-02-17 22:52:23.354860"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia de Produção"], ["created_at", "2021-02-17 22:52:23.364129"], ["updated_at", "2021-02-17 22:52:23.364129"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia de Qualidade"], ["created_at", "2021-02-17 22:52:23.372278"], ["updated_at", "2021-02-17 22:52:23.372278"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia de Software"], ["created_at", "2021-02-17 22:52:23.380402"], ["updated_at", "2021-02-17 22:52:23.380402"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (1.6ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia de Telecomunicações"], ["created_at", "2021-02-17 22:52:23.388432"], ["updated_at", "2021-02-17 22:52:23.388432"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.9ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia Elétrica"], ["created_at", "2021-02-17 22:52:23.397975"], ["updated_at", "2021-02-17 22:52:23.397975"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia Eletrônica"], ["created_at", "2021-02-17 22:52:23.404829"], ["updated_at", "2021-02-17 22:52:23.404829"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia Florestal"], ["created_at", "2021-02-17 22:52:23.414827"], ["updated_at", "2021-02-17 22:52:23.414827"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia Mecânica"], ["created_at", "2021-02-17 22:52:23.422568"], ["updated_at", "2021-02-17 22:52:23.422568"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia Naval"], ["created_at", "2021-02-17 22:52:23.432301"], ["updated_at", "2021-02-17 22:52:23.432301"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia Química"], ["created_at", "2021-02-17 22:52:23.442106"], ["updated_at", "2021-02-17 22:52:23.442106"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Engenharia Sanitária"], ["created_at", "2021-02-17 22:52:23.449262"], ["updated_at", "2021-02-17 22:52:23.449262"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (9.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Epidemiologia"], ["created_at", "2021-02-17 22:52:23.462145"], ["updated_at", "2021-02-17 22:52:23.462145"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Espanhol"], ["created_at", "2021-02-17 22:52:23.475928"], ["updated_at", "2021-02-17 22:52:23.475928"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Estatística"], ["created_at", "2021-02-17 22:52:23.484625"], ["updated_at", "2021-02-17 22:52:23.484625"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.9ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Estatuto da Advocacia e da OAB"], ["created_at", "2021-02-17 22:52:23.493345"], ["updated_at", "2021-02-17 22:52:23.493345"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Estatuto dos Militares Estaduais do Ceará"], ["created_at", "2021-02-17 22:52:23.504600"], ["updated_at", "2021-02-17 22:52:23.504600"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Ética na Administração Pública"], ["created_at", "2021-02-17 22:52:23.513763"], ["updated_at", "2021-02-17 22:52:23.513763"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Farmácia"], ["created_at", "2021-02-17 22:52:23.521037"], ["updated_at", "2021-02-17 22:52:23.521037"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Filosofia e Ética"], ["created_at", "2021-02-17 22:52:23.529326"], ["updated_at", "2021-02-17 22:52:23.529326"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Filosofia e Sociologia do Direito"], ["created_at", "2021-02-17 22:52:23.536255"], ["updated_at", "2021-02-17 22:52:23.536255"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Finanças"], ["created_at", "2021-02-17 22:52:23.544489"], ["updated_at", "2021-02-17 22:52:23.544489"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Finanças Públicas"], ["created_at", "2021-02-17 22:52:23.551730"], ["updated_at", "2021-02-17 22:52:23.551730"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Física"], ["created_at", "2021-02-17 22:52:23.566412"], ["updated_at", "2021-02-17 22:52:23.566412"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Fisioterapia"], ["created_at", "2021-02-17 22:52:23.574778"], ["updated_at", "2021-02-17 22:52:23.574778"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Fonoaudiologia"], ["created_at", "2021-02-17 22:52:23.583028"], ["updated_at", "2021-02-17 22:52:23.583028"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Francês"], ["created_at", "2021-02-17 22:52:23.590165"], ["updated_at", "2021-02-17 22:52:23.590165"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (3.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Geografia"], ["created_at", "2021-02-17 22:52:23.597065"], ["updated_at", "2021-02-17 22:52:23.597065"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Geologia"], ["created_at", "2021-02-17 22:52:23.605361"], ["updated_at", "2021-02-17 22:52:23.605361"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Geometria"], ["created_at", "2021-02-17 22:52:23.614746"], ["updated_at", "2021-02-17 22:52:23.614746"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Geometria Analítica"], ["created_at", "2021-02-17 22:52:23.622728"], ["updated_at", "2021-02-17 22:52:23.622728"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (13.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Geração, transmissão e distribuição de energia elétrica."], ["created_at", "2021-02-17 22:52:23.640467"], ["updated_at", "2021-02-17 22:52:23.640467"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Gerência de Projetos"], ["created_at", "2021-02-17 22:52:23.648219"], ["updated_at", "2021-02-17 22:52:23.648219"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Gerenciamento do Risco"], ["created_at", "2021-02-17 22:52:23.657674"], ["updated_at", "2021-02-17 22:52:23.657674"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Gestão Ambiental"], ["created_at", "2021-02-17 22:52:23.666107"], ["updated_at", "2021-02-17 22:52:23.666107"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Gestão de Investimento"], ["created_at", "2021-02-17 22:52:23.673762"], ["updated_at", "2021-02-17 22:52:23.673762"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (9.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Gestão de Pessoas"], ["created_at", "2021-02-17 22:52:23.685859"], ["updated_at", "2021-02-17 22:52:23.685859"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Gestão de Processos (BPM)"], ["created_at", "2021-02-17 22:52:23.693595"], ["updated_at", "2021-02-17 22:52:23.693595"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Gestão de Produtos e Operações"], ["created_at", "2021-02-17 22:52:23.701949"], ["updated_at", "2021-02-17 22:52:23.701949"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Gestão Documental Pública"], ["created_at", "2021-02-17 22:52:23.710304"], ["updated_at", "2021-02-17 22:52:23.710304"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (13.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Gestão Financeira"], ["created_at", "2021-02-17 22:52:23.726174"], ["updated_at", "2021-02-17 22:52:23.726174"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Governança de TI"], ["created_at", "2021-02-17 22:52:23.733006"], ["updated_at", "2021-02-17 22:52:23.733006"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (1.9ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "História Antiga"], ["created_at", "2021-02-17 22:52:23.741093"], ["updated_at", "2021-02-17 22:52:23.741093"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (7.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.9ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "História do Brasil"], ["created_at", "2021-02-17 22:52:23.764490"], ["updated_at", "2021-02-17 22:52:23.764490"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "História e Geografia de Estados e Municípios"], ["created_at", "2021-02-17 22:52:23.775825"], ["updated_at", "2021-02-17 22:52:23.775825"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "História e Geografia de Minas Gerais"], ["created_at", "2021-02-17 22:52:23.783714"], ["updated_at", "2021-02-17 22:52:23.783714"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "História e Geografia de Rondônia"], ["created_at", "2021-02-17 22:52:23.791275"], ["updated_at", "2021-02-17 22:52:23.791275"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "História e Geografia do Amapá"], ["created_at", "2021-02-17 22:52:23.799229"], ["updated_at", "2021-02-17 22:52:23.799229"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "História e Geografia do Rio Grande do Norte"], ["created_at", "2021-02-17 22:52:23.807030"], ["updated_at", "2021-02-17 22:52:23.807030"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (18.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "História Econômica, Administrativa e Política de São Paulo"], ["created_at", "2021-02-17 22:52:23.829001"], ["updated_at", "2021-02-17 22:52:23.829001"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "História Geral"], ["created_at", "2021-02-17 22:52:23.839550"], ["updated_at", "2021-02-17 22:52:23.839550"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "História Mundial"], ["created_at", "2021-02-17 22:52:23.847248"], ["updated_at", "2021-02-17 22:52:23.847248"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Informática"], ["created_at", "2021-02-17 22:52:23.855178"], ["updated_at", "2021-02-17 22:52:23.855178"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Inglês"], ["created_at", "2021-02-17 22:52:23.868625"], ["updated_at", "2021-02-17 22:52:23.868625"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Instalações elétricas"], ["created_at", "2021-02-17 22:52:23.877652"], ["updated_at", "2021-02-17 22:52:23.877652"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Jornalismo"], ["created_at", "2021-02-17 22:52:23.884284"], ["updated_at", "2021-02-17 22:52:23.884284"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação da ABIN"], ["created_at", "2021-02-17 22:52:23.892247"], ["updated_at", "2021-02-17 22:52:23.892247"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação da AGU"], ["created_at", "2021-02-17 22:52:23.900278"], ["updated_at", "2021-02-17 22:52:23.900278"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação da DPU"], ["created_at", "2021-02-17 22:52:23.907256"], ["updated_at", "2021-02-17 22:52:23.907256"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação de Seguros"], ["created_at", "2021-02-17 22:52:23.915378"], ["updated_at", "2021-02-17 22:52:23.915378"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.7ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação de Trânsito"], ["created_at", "2021-02-17 22:52:23.922949"], ["updated_at", "2021-02-17 22:52:23.922949"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação do MPE"], ["created_at", "2021-02-17 22:52:23.931098"], ["updated_at", "2021-02-17 22:52:23.931098"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação do MPU"], ["created_at", "2021-02-17 22:52:23.938653"], ["updated_at", "2021-02-17 22:52:23.938653"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação Estadual"], ["created_at", "2021-02-17 22:52:23.946061"], ["updated_at", "2021-02-17 22:52:23.946061"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação Federal"], ["created_at", "2021-02-17 22:52:23.952857"], ["updated_at", "2021-02-17 22:52:23.952857"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação Municipal"], ["created_at", "2021-02-17 22:52:23.961555"], ["updated_at", "2021-02-17 22:52:23.961555"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação Previdenciária"], ["created_at", "2021-02-17 22:52:23.968514"], ["updated_at", "2021-02-17 22:52:23.968514"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação Tributária"], ["created_at", "2021-02-17 22:52:23.976691"], ["updated_at", "2021-02-17 22:52:23.976691"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação Tributária do AP"], ["created_at", "2021-02-17 22:52:23.984775"], ["updated_at", "2021-02-17 22:52:23.984775"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.8ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Legislação Tributária do RN"], ["created_at", "2021-02-17 22:52:23.993174"], ["updated_at", "2021-02-17 22:52:23.993174"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Lei Orgânica do DF"], ["created_at", "2021-02-17 22:52:24.001259"], ["updated_at", "2021-02-17 22:52:24.001259"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Leis Orgânicas"], ["created_at", "2021-02-17 22:52:24.010210"], ["updated_at", "2021-02-17 22:52:24.010210"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (9.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Linguagens e Códigos e suas Tecnologias"], ["created_at", "2021-02-17 22:52:24.022377"], ["updated_at", "2021-02-17 22:52:24.022377"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Literatura"], ["created_at", "2021-02-17 22:52:24.031369"], ["updated_at", "2021-02-17 22:52:24.031369"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Logística"], ["created_at", "2021-02-17 22:52:24.038321"], ["updated_at", "2021-02-17 22:52:24.038321"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Macroeconomia"], ["created_at", "2021-02-17 22:52:24.045235"], ["updated_at", "2021-02-17 22:52:24.045235"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Máquinas elétricas"], ["created_at", "2021-02-17 22:52:24.054651"], ["updated_at", "2021-02-17 22:52:24.054651"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Marketing"], ["created_at", "2021-02-17 22:52:24.064503"], ["updated_at", "2021-02-17 22:52:24.064503"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Matemática"], ["created_at", "2021-02-17 22:52:24.071807"], ["updated_at", "2021-02-17 22:52:24.071807"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Matemática Atuarial"], ["created_at", "2021-02-17 22:52:24.080424"], ["updated_at", "2021-02-17 22:52:24.080424"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Matemática e suas Tecnologias"], ["created_at", "2021-02-17 22:52:24.087855"], ["updated_at", "2021-02-17 22:52:24.087855"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Matemática Financeira"], ["created_at", "2021-02-17 22:52:24.106797"], ["updated_at", "2021-02-17 22:52:24.106797"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Mecânica de Autos"], ["created_at", "2021-02-17 22:52:24.114699"], ["updated_at", "2021-02-17 22:52:24.114699"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Medicina"], ["created_at", "2021-02-17 22:52:24.121202"], ["updated_at", "2021-02-17 22:52:24.121202"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.8ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Medicina do Trabalho"], ["created_at", "2021-02-17 22:52:24.129339"], ["updated_at", "2021-02-17 22:52:24.129339"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Medicina Legal"], ["created_at", "2021-02-17 22:52:24.142509"], ["updated_at", "2021-02-17 22:52:24.142509"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Medidas elétricas"], ["created_at", "2021-02-17 22:52:24.150710"], ["updated_at", "2021-02-17 22:52:24.150710"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Meio Ambiente"], ["created_at", "2021-02-17 22:52:24.160600"], ["updated_at", "2021-02-17 22:52:24.160600"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Metodologia da Investigação Policial"], ["created_at", "2021-02-17 22:52:24.168874"], ["updated_at", "2021-02-17 22:52:24.168874"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Microeconomia"], ["created_at", "2021-02-17 22:52:24.176341"], ["updated_at", "2021-02-17 22:52:24.176341"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Modelagem de Processos de Negócio"], ["created_at", "2021-02-17 22:52:24.184635"], ["updated_at", "2021-02-17 22:52:24.184635"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Museologia"], ["created_at", "2021-02-17 22:52:24.191638"], ["updated_at", "2021-02-17 22:52:24.191638"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Noções de Arquivologia"], ["created_at", "2021-02-17 22:52:24.207481"], ["updated_at", "2021-02-17 22:52:24.207481"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Noções de Informática"], ["created_at", "2021-02-17 22:52:24.214210"], ["updated_at", "2021-02-17 22:52:24.214210"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Noções de Telecomunicações"], ["created_at", "2021-02-17 22:52:24.222725"], ["updated_at", "2021-02-17 22:52:24.222725"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Nutrição"], ["created_at", "2021-02-17 22:52:24.231390"], ["updated_at", "2021-02-17 22:52:24.231390"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Oceanografia Geológica"], ["created_at", "2021-02-17 22:52:24.238553"], ["updated_at", "2021-02-17 22:52:24.238553"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Odontologia"], ["created_at", "2021-02-17 22:52:24.245624"], ["updated_at", "2021-02-17 22:52:24.245624"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Organização da Justiça Militar da União"], ["created_at", "2021-02-17 22:52:24.253850"], ["updated_at", "2021-02-17 22:52:24.253850"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Organização Judiciária"], ["created_at", "2021-02-17 22:52:24.262017"], ["updated_at", "2021-02-17 22:52:24.262017"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (9.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Patologia"], ["created_at", "2021-02-17 22:52:24.273518"], ["updated_at", "2021-02-17 22:52:24.273518"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Patologia e Semiologia Odontológicas"], ["created_at", "2021-02-17 22:52:24.282203"], ["updated_at", "2021-02-17 22:52:24.282203"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Pedagogia"], ["created_at", "2021-02-17 22:52:24.300537"], ["updated_at", "2021-02-17 22:52:24.300537"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Periodontia"], ["created_at", "2021-02-17 22:52:24.307800"], ["updated_at", "2021-02-17 22:52:24.307800"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Política Internacional"], ["created_at", "2021-02-17 22:52:24.314811"], ["updated_at", "2021-02-17 22:52:24.314811"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Políticas Nacionais"], ["created_at", "2021-02-17 22:52:24.322766"], ["updated_at", "2021-02-17 22:52:24.322766"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (11.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Políticas Sociais e de Infra-Estrutura no Brasil"], ["created_at", "2021-02-17 22:52:24.338942"], ["updated_at", "2021-02-17 22:52:24.338942"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (31.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.8ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Português"], ["created_at", "2021-02-17 22:52:24.373028"], ["updated_at", "2021-02-17 22:52:24.373028"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (21.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Primeiros Socorros"], ["created_at", "2021-02-17 22:52:24.398123"], ["updated_at", "2021-02-17 22:52:24.398123"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Princípios, Normas e Atribuições Institucionais"], ["created_at", "2021-02-17 22:52:24.406573"], ["updated_at", "2021-02-17 22:52:24.406573"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Programação"], ["created_at", "2021-02-17 22:52:24.417347"], ["updated_at", "2021-02-17 22:52:24.417347"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Psicologia"], ["created_at", "2021-02-17 22:52:24.425162"], ["updated_at", "2021-02-17 22:52:24.425162"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Psicologia Jurídica"], ["created_at", "2021-02-17 22:52:24.437040"], ["updated_at", "2021-02-17 22:52:24.437040"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Psiquiatria"], ["created_at", "2021-02-17 22:52:24.445582"], ["updated_at", "2021-02-17 22:52:24.445582"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Química"], ["created_at", "2021-02-17 22:52:24.452401"], ["updated_at", "2021-02-17 22:52:24.452401"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (7.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Raciocínio-Lógico"], ["created_at", "2021-02-17 22:52:24.461879"], ["updated_at", "2021-02-17 22:52:24.461879"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (1.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Redação Oficial"], ["created_at", "2021-02-17 22:52:24.469479"], ["updated_at", "2021-02-17 22:52:24.469479"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.6ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Redes de Computadores"], ["created_at", "2021-02-17 22:52:24.477461"], ["updated_at", "2021-02-17 22:52:24.477461"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (1.1ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Regime Jurídico do Ministério Público"], ["created_at", "2021-02-17 22:52:24.483926"], ["updated_at", "2021-02-17 22:52:24.483926"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Regimento Interno"], ["created_at", "2021-02-17 22:52:24.492369"], ["updated_at", "2021-02-17 22:52:24.492369"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (7.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Relações Humanas"], ["created_at", "2021-02-17 22:52:24.502786"], ["updated_at", "2021-02-17 22:52:24.502786"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Relações Públicas"], ["created_at", "2021-02-17 22:52:24.513045"], ["updated_at", "2021-02-17 22:52:24.513045"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Saúde Pública"], ["created_at", "2021-02-17 22:52:24.521698"], ["updated_at", "2021-02-17 22:52:24.521698"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.5ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Secretariado"], ["created_at", "2021-02-17 22:52:24.529499"], ["updated_at", "2021-02-17 22:52:24.529499"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (7.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Segurança da Informação"], ["created_at", "2021-02-17 22:52:24.540903"], ["updated_at", "2021-02-17 22:52:24.540903"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Segurança e Saúde no Trabalho"], ["created_at", "2021-02-17 22:52:24.549004"], ["updated_at", "2021-02-17 22:52:24.549004"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Segurança e Transporte"], ["created_at", "2021-02-17 22:52:24.558065"], ["updated_at", "2021-02-17 22:52:24.558065"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (15.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Serviço Social"], ["created_at", "2021-02-17 22:52:24.576090"], ["updated_at", "2021-02-17 22:52:24.576090"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Sistema Elétrico Brasileiro"], ["created_at", "2021-02-17 22:52:24.585377"], ["updated_at", "2021-02-17 22:52:24.585377"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Sistema Financeiro Nacional"], ["created_at", "2021-02-17 22:52:24.594979"], ["updated_at", "2021-02-17 22:52:24.594979"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Sistemas de controle"], ["created_at", "2021-02-17 22:52:24.602846"], ["updated_at", "2021-02-17 22:52:24.602846"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Sistemas de Informação"], ["created_at", "2021-02-17 22:52:24.610479"], ["updated_at", "2021-02-17 22:52:24.610479"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.8ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Sistemas Operacionais"], ["created_at", "2021-02-17 22:52:24.619896"], ["updated_at", "2021-02-17 22:52:24.619896"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Sociologia"], ["created_at", "2021-02-17 22:52:24.628963"], ["updated_at", "2021-02-17 22:52:24.628963"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Supervisão de Instituições Financeiras"], ["created_at", "2021-02-17 22:52:24.638311"], ["updated_at", "2021-02-17 22:52:24.638311"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (8.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Telecomunicações"], ["created_at", "2021-02-17 22:52:24.650687"], ["updated_at", "2021-02-17 22:52:24.650687"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Teoria Geral da Administração"], ["created_at", "2021-02-17 22:52:24.657786"], ["updated_at", "2021-02-17 22:52:24.657786"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Teoria Geral do Processo"], ["created_at", "2021-02-17 22:52:24.666271"], ["updated_at", "2021-02-17 22:52:24.666271"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.3ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Teoria Política Aplicada"], ["created_at", "2021-02-17 22:52:24.676870"], ["updated_at", "2021-02-17 22:52:24.676870"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Trigonometria"], ["created_at", "2021-02-17 22:52:24.696645"], ["updated_at", "2021-02-17 22:52:24.696645"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (6.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Turismo"], ["created_at", "2021-02-17 22:52:24.707357"], ["updated_at", "2021-02-17 22:52:24.707357"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Create (0.4ms)[0m  [1m[32mINSERT INTO "subjects" ("description", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["description", "Veterinária"], ["created_at", "2021-02-17 22:52:24.716434"], ["updated_at", "2021-02-17 22:52:24.716434"]]
+  ↳ lib/tasks/dev.rake:60
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ lib/tasks/dev.rake:60
+  [1m[36mSubject Load (0.6ms)[0m  [1m[34mSELECT  "subjects".* FROM "subjects" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[36mSubject Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "subjects" LIMIT ?[0m  [["LIMIT", 1]]
+  [1m[36mSubject Load (0.7ms)[0m  [1m[34mSELECT "subjects".* FROM "subjects"[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "subjects"[0m
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 20:07:59 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/admins_backoffice/admins/index.html.erb:18
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:40
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (170.7ms)
+Completed 200 OK in 568ms (Views: 550.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 20:08:11 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/admins_backoffice/admins/index.html.erb:18
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:40
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (13.0ms)
+Completed 200 OK in 51ms (Views: 48.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 20:08:27 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/admins_backoffice/admins/index.html.erb:18
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT COUNT(*) FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:40
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (14.8ms)
+Completed 200 OK in 56ms (Views: 53.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admins_backoffice/admins" for ::1 at 2021-02-17 20:08:45 -0300
+Processing by AdminsBackoffice::AdminsController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+  Rendering admins_backoffice/admins/index.html.erb within layouts/admins_backoffice
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" LIMIT ? OFFSET ?[0m  [["LIMIT", 5], ["OFFSET", 0]]
+  ↳ app/views/admins_backoffice/admins/index.html.erb:18
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "admins"[0m
+  ↳ app/views/admins_backoffice/admins/index.html.erb:40
+  Rendered admins_backoffice/admins/index.html.erb within layouts/admins_backoffice (22.2ms)
+Completed 200 OK in 90ms (Views: 86.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/rails/info/routes" for ::1 at 2021-02-17 20:10:45 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/activerecord-5.2.4.5/lib/active_record/log_subscriber.rb:98
+Processing by Rails::InfoController#routes as HTML
+  Rendering /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/railties-5.2.4.5/lib/rails/templates/rails/info/routes.html.erb within layouts/application
+  Rendered collection of /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/actionpack-5.2.4.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb [56 times] (11.1ms)
+  Rendered /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/actionpack-5.2.4.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /home/ryanonrails/.rvm/gems/ruby-2.6.6/gems/railties-5.2.4.5/lib/rails/templates/rails/info/routes.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/rails/info/routes?path=subject" for ::1 at 2021-02-17 20:10:48 -0300
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"subject"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
